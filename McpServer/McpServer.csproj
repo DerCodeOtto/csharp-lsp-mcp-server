@@ -12,11 +12,12 @@
 
   <PropertyGroup>
 	<PackageId>DerCodeOtto.CsLspMcp</PackageId>
-	<Version>0.0.1</Version>
+	<Version>0.0.2</Version>
 	<Authors>Florian Otto</Authors>
 	<Description>Provides Language Server like functionality over a MCP Server for Coding Agents</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<RepositoryUrl>https://github.com/DerCodeOtto/csharp-lsp-mcp-server</RepositoryUrl>
+	<UserSecretsId>889509bc-b14e-4817-a8dc-d06fba86d4bc</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +26,12 @@
     <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" />
     <PackageReference Include="Microsoft.Extensions.Hosting" />
     <PackageReference Include="ModelContextProtocol.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DotnetToolSettings.xml.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
