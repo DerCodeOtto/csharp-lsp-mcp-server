@@ -12,7 +12,7 @@
 
   <PropertyGroup>
 	<PackageId>DerCodeOtto.CsLspMcp</PackageId>
-	<Version>0.0.2</Version>
+	<Version>0.0.3</Version>
 	<Authors>Florian Otto</Authors>
 	<Description>Provides Language Server like functionality over a MCP Server for Coding Agents</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="DotnetToolSettings.xml.txt">
+    <None Update="DotnetToolSettings.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
